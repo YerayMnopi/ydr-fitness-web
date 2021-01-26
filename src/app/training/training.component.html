@@ -1,0 +1,11 @@
+<h2 class="training__date">{{training.date | date:'medium' }}</h2>
+<ul class="training__exercise-list">
+    <li class="trainining__exercise"
+        *ngFor="let exercise of training.executions"
+    >
+        {{exercise.excerciseId}}: <span *ngFor="let set of exercise.sets" class="training__exercise">{{set.repetitions}}, </span>
+    </li>
+</ul>
+<from [formGroup]="form" class="training__form">
+
+</from>
