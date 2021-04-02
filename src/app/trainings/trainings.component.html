@@ -1,0 +1,13 @@
+<h1 class="trainings__heading">Trainings</h1>
+<app-training class="trainings__training" 
+    *ngFor="let training of trainings" 
+    [training]="training"
+    [exercises]="exercises"
+    (newExecution)="createExecution($event)"
+    (newSet)="createSet($event)"
+    (delete)="deleteTraining($event)"
+></app-training>
+
+<div class="training__action">
+    <button class="trainings__create" (click)="createTraining()">New training</button>
+</div>

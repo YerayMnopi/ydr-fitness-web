@@ -3,7 +3,7 @@ import transactionPage from '../pages/transactions-page';
 
 given('a user who is in transactions screen', function () {
     transactionPage.actions.visit();
-    loginPage.actions.login('user', 'pass');
+    loginPage.actions.login(Cypress.env('smokeUser').email, Cypress.env('smokeUser').password);
 });
     
 when('he tries to sort by date', function () {

@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Commands
+
+### Docker
+Build de the docker image
+`docker build -t belce/ydr-fitness-web .`
+
+Push it to docker hub
+`docker push belce/ydr-fitness-web:latest`
+
+Create a pod in kubenetes
+`helm upgrade --install ydr-fitness-web helm/.`
+
+Watch pod logs
+`kubectl logs --follow {podName}`
+
+Delete all pods of this chart
+`helm uninstall ydr-fitness-web`

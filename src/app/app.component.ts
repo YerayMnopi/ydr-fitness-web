@@ -1,34 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import { Training } from './training/training';
+import { Training } from './trainings/training/training';
+import { slideInAnimation, slideOutAnimation } from 'ydr-ng-common';
+import { RouterOutlet } from '@angular/router';
+import { trigger, transition } from '@angular/animations';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  animations: [
+    trigger('routeAnimations', [
+      transition('home => *', slideInAnimation),
+      transition('login => trainings', slideInAnimation),
+      transition('login => home', slideOutAnimation),
+      transition('trainings => *', slideOutAnimation),
+    ])
+  ]
 })
 export class AppComponent implements OnInit {
-  training = new Training();
-
-  ngOnInit() {
-    this.training.executions = [
-      {
-        excerciseId: '234n3',
-        volume: 0,
-        sets: [
-          {
-            repetitions: 8,
-            weight: 0
-          },
-          {
-            repetitions: 8,
-            weight: 0
-          },
-          {
-            repetitions: 5,
-            weight: 0
-          }
-        ],
-      }
-    ];
+  ngOnInit() {}
+  prepareRoute(outlet: RouterOutlet) {
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
   }
 }

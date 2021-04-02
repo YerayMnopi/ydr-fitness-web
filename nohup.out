@@ -1,0 +1,24 @@
+
+> ydr-fitness-web@0.0.0 start /Users/n226510/yeray/front/ydr-fitness-web
+> ng serve  --host 0.0.0.0
+
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+
+chunk {default~login-module~trainings-trainings-module} default~login-module~trainings-trainings-module.js, default~login-module~trainings-trainings-module.js.map (default~login-module~trainings-trainings-module) 284 kB  [rendered]
+chunk {home-home-module} home-home-module.js, home-home-module.js.map (home-home-module) 11.8 kB  [rendered]
+chunk {login-module} login-module.js, login-module.js.map (login-module) 14.4 kB  [rendered]
+chunk {main} main.js, main.js.map (main) 24.2 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 150 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 9.19 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 25.1 kB [initial] [rendered]
+chunk {trainings-trainings-module} trainings-trainings-module.js, trainings-trainings-module.js.map (trainings-trainings-module) 72.6 kB  [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.23 MB [initial] [rendered]
+Date: 2021-04-02T11:15:04.727Z - Hash: 135bcd820c9d528a0bf6 - Time: 10741ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.

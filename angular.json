@@ -25,12 +25,22 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "*",
+                "input": "node_modules/ydr-ng-common/src/lib/assets",
+                "output": "assets/"
+              }
             ],
             "styles": [
+              "node_modules/ydr-ng-common/src/lib/sass/main.scss",
               "src/styles.scss"
             ],
-            "scripts": []
+            "stylePreprocessorOptions": {
+              "includePaths": ["node_modules/ydr-ng-common/src/lib/sass"]
+            },
+            "scripts": [],
+            "preserveSymlinks": true
           },
           "configurations": {
             "production": {
@@ -92,8 +102,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ydr-ng-common/src/lib/sass/main.scss",
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["node_modules/ydr-ng-common/src/lib/sass"]
+            },
             "scripts": []
           }
         },

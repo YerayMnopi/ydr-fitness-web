@@ -28,15 +28,28 @@ describe('TrainingComponent', () => {
         volume: 0,
         sets: [
           {
-            repetitions: 8
+            repetitions: 8,
+            weight: 0
           },
           {
-            repetitions: 8
+            repetitions: 8,
+            weight: 0
           },
           {
-            repetitions: 5
+            repetitions: 5,
+            weight: 0
           }
         ],
+      }
+    ]
+    component.exercises = [
+      {
+        id: 'test1',
+        name: 'test 1'
+      },
+      {
+        id: 'test2',
+        name: 'test 2'
       }
     ]
 
@@ -50,8 +63,13 @@ describe('TrainingComponent', () => {
   it('should display training date', () => {    
     const training_date = fixture.debugElement.query(By.css('.training__date')).nativeElement.innerText;
 
-    expect(training_date).toBe(new DatePipe('en').transform(component.training.date, 'medium'));
+    expect(training_date).toBe(new DatePipe('en').transform(component.training.createdAt, 'medium'));
   });
 
-  it('should ')
+  it('should have an exercise selector', () => {
+    const options = fixture.debugElement.queryAll(By.css('.training__exercise-select-option'));
+
+    expect(options.length).toBe(component.exercises.length);
+  });
+
 });

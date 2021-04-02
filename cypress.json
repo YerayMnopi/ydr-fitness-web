@@ -1,0 +1,17 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "chromeWebSecurity": false,
+    "reporter": "mochawesome",
+    "defaultCommandTimeout": 20000,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "modifyObstructiveCode": false,
+    "baseUrl": "http://localhost:4200",
+    "env": {
+        "apiUrl": "http://localhost:9000",
+        "smokeUser": {
+            "email": "yeraysonido29@yahoo.es",
+            "password": "1aragon1"
+        }
+    }
+}

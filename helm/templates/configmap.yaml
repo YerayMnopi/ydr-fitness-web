@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ydr-fitness-web-config
+data:
+  APP_PORT: "{{ .Values.appPort }}"

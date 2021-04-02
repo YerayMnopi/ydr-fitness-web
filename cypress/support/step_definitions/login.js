@@ -6,7 +6,7 @@ given('a user who already has an account', function () {
 });
   
 when('he tries to login with valid credentials', function () {
-  loginPage.actions.login('fgsdfgsdgrgrtrtrt@yahoo.es', '1aragon1');
+  loginPage.actions.login(Cypress.env('smokeUser').email, Cypress.env('smokeUser').password);
 });
 
 then('the system redirects to transaction list', function () {

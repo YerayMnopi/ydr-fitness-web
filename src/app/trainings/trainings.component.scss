@@ -1,0 +1,66 @@
+@import 'utils/mixins';
+
+:host {
+    @include background-color(background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+    @include padding(8);
+}
+
+.trainings__training {
+    @include margin(8, 0, 0, 0);
+    box-shadow: 1px 8px 3px -8px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 1px 8px 3px -8px rgba(0,0,0,0.47);
+    -moz-box-shadow: 1px 8px 3px -8px rgba(0,0,0,0.47);
+}
+
+.training__action {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    @include padding(4);
+    border-top: solid 1px #F2F2F2;
+    @include z-index(1);
+
+    @include min-width(phone) {
+        position: absolute;
+        bottom: inherit;
+        width: inherit;
+        background-color: transparent;
+        padding: 0;
+        border-top: none;
+        right: 2rem;
+        min-width: 10rem;
+    }
+}
+
+.trainings__create {
+    @include background-color(accent);
+    @include padding(1, 3);
+    @include color(white);
+    @include font-family(bold);
+    @include font-size(medium);
+    @include font-weight(bold);
+    @include border-radius(lg);
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0;
+    height: 4rem;
+    transition: color 500ms linear;
+    transition: background-color 500ms linear;
+  
+    &:active {
+      box-shadow: none;
+    }
+  
+    &:disabled {
+      @include background-color(grey);
+      color: darkgrey;
+    }
+    display: block;
+    margin: .5rem auto;
+    width: 100%;
+}

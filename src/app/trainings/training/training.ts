@@ -1,6 +1,7 @@
 import { Execution } from './execution';
 
 export class Training {
-    date: Date = new Date();
+    id!: string;
+    createdAt: Date = new Date();
     executions: Execution[] = [];
 }
