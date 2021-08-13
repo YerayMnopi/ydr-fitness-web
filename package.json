@@ -23,7 +23,7 @@
     "@ngrx/entity": "^12.4.0",
     "@ngrx/store": "^12.4.0",
     "@ngrx/store-devtools": "^12.4.0",
-    "@nguniversal/express-engine": "^10.1.0",
+    "@nguniversal/express-engine": "^12.1.0",
     "ci": "^1.0.0",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.9.1",
