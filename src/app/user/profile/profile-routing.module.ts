@@ -1,15 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TrainingsComponent } from './trainings.component';
-import { UserResolver } from 'ydr-ng-common/user';
+import { ProfileComponent } from './profile.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: TrainingsComponent,
-    resolve: [
-      UserResolver
-    ]
+    component: ProfileComponent
   }
 ];
 
@@ -17,4 +13,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class TrainingsRoutingModule { }
+export class ProfileRoutingModule { }

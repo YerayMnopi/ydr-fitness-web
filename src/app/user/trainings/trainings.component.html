@@ -1,6 +1,7 @@
 <h1 class="trainings__heading">Trainings</h1>
 <app-training class="trainings__training" 
     *ngFor="let training of trainings" 
+    [routerLink]="training.id"
     [training]="training"
     [exercises]="exercises"
     (newExecution)="createExecution($event)"

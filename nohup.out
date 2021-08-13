@@ -10,15 +10,161 @@ computer. Using a different host than the one passed to the "--host" flag might 
 websocket connection issues. You might need to use "--disableHostCheck" if that's the
 case.
 
+chunk {dashboard-dashboard-module} dashboard-dashboard-module.js, dashboard-dashboard-module.js.map (dashboard-dashboard-module) 6.84 kB  [rendered]
 chunk {default~login-module~trainings-trainings-module} default~login-module~trainings-trainings-module.js, default~login-module~trainings-trainings-module.js.map (default~login-module~trainings-trainings-module) 284 kB  [rendered]
-chunk {home-home-module} home-home-module.js, home-home-module.js.map (home-home-module) 11.8 kB  [rendered]
-chunk {login-module} login-module.js, login-module.js.map (login-module) 14.4 kB  [rendered]
-chunk {main} main.js, main.js.map (main) 24.2 kB [initial] [rendered]
+chunk {home-home-module} home-home-module.js, home-home-module.js.map (home-home-module) 18.7 kB  [rendered]
+chunk {login-module} login-module.js, login-module.js.map (login-module) 14.7 kB  [rendered]
+chunk {main} main.js, main.js.map (main) 17.8 kB [initial] [rendered]
 chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 150 kB [initial] [rendered]
-chunk {runtime} runtime.js, runtime.js.map (runtime) 9.19 kB [entry] [rendered]
-chunk {styles} styles.js, styles.js.map (styles) 25.1 kB [initial] [rendered]
-chunk {trainings-trainings-module} trainings-trainings-module.js, trainings-trainings-module.js.map (trainings-trainings-module) 72.6 kB  [rendered]
+chunk {profile-profile-module} profile-profile-module.js, profile-profile-module.js.map (profile-profile-module) 6.68 kB  [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 9.41 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 25.9 kB [initial] [rendered]
+chunk {training-detail-training-detail-module} training-detail-training-detail-module.js, training-detail-training-detail-module.js.map (training-detail-training-detail-module) 7.27 kB  [rendered]
+chunk {trainings-trainings-module} trainings-trainings-module.js, trainings-trainings-module.js.map (trainings-trainings-module) 73.4 kB  [rendered]
+chunk {user-user-module} user-user-module.js, user-user-module.js.map (user-user-module) 10.8 kB  [rendered]
 chunk {vendor} vendor.js, vendor.js.map (vendor) 3.23 MB [initial] [rendered]
-Date: 2021-04-02T11:15:04.727Z - Hash: 135bcd820c9d528a0bf6 - Time: 10741ms
+Date: 2021-08-13T17:30:46.042Z - Hash: bfa519af7e9db47bf66d - Time: 51595ms
 ** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2021-08-13T17:32:07.340Z - Hash: 396d95d0061375e1b8f4
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 25.9 kB [initial] [rendered]
+Time: 285ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:32:58.480Z - Hash: 1942801719c2bdcda2a6
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 26 kB [initial] [rendered]
+Time: 139ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:33:33.674Z - Hash: 5a5f759e5c8b94ae6b02
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 24.6 kB [initial] [rendered]
+Time: 135ms
+
+ERROR in ./src/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/resolve-url-loader??ref--13-3!./node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/styles.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: Undefined mixin.
+   ╷
+30 │   @include background(foreground)
+   │   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  src/styles.scss 30:3  root stylesheet
+
+Date: 2021-08-13T17:33:58.919Z - Hash: 4a91019ad19022b17274
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 24.6 kB [initial] [rendered]
+Time: 166ms
+
+ERROR in ./src/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/resolve-url-loader??ref--13-3!./node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/styles.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: Undefined mixin.
+   ╷
+31 │   @include background(foreground)
+   │   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+  src/styles.scss 31:3  root stylesheet
+
+Date: 2021-08-13T17:37:33.471Z - Hash: d657593f55b3c25c3cc0
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28 kB [initial] [rendered]
+Time: 164ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:38:31.287Z - Hash: 048a5faf62ca09238608
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28 kB [initial] [rendered]
+Time: 146ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:39:00.713Z - Hash: 048a5faf62ca09238608
+13 unchanged chunks
+
+Time: 149ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:39:55.680Z - Hash: b355bac25a11bd34c582
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28 kB [initial] [rendered]
+Time: 159ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:44:55.883Z - Hash: 1cbc28e6f58266440805
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28 kB [initial] [rendered]
+Time: 131ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:45:58.088Z - Hash: 05adbd5d09d863597679
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 24.6 kB [initial] [rendered]
+Time: 97ms
+
+ERROR in ./src/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/resolve-url-loader??ref--13-3!./node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/styles.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: expected ";".
+   ╷
+32 │   @include background-color(background)
+   │                                        ^
+   ╵
+  src/styles.scss 32:40  root stylesheet
+
+Date: 2021-08-13T17:46:03.064Z - Hash: 39bf36a6eced5a3eb4df
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28.1 kB [initial] [rendered]
+Time: 93ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:46:38.215Z - Hash: 0e901cb33fd86fe1b21c
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28.1 kB [initial] [rendered]
+Time: 122ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:48:22.082Z - Hash: 15cc8e9f1587de85c426
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28.1 kB [initial] [rendered]
+Time: 135ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:48:46.313Z - Hash: bacb804a35ebc870cfa6
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 24.9 kB [initial] [rendered]
+Time: 106ms
+
+ERROR in ./src/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/resolve-url-loader??ref--13-3!./node_modules/sass-loader/dist/cjs.js??ref--13-4!./src/styles.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: (5: 5px, 14: 14px, medium: 1.6rem, 21: 21px, 29: 29px, 49: 49px, 69: 69px, 90: 90px) isn't a valid CSS value.
+  ╷
+6 │   @error "Unknown `#{$key}` in ``#{$map}`.";
+  │                                    ^^^^
+  ╵
+  node_modules/ydr-ng-common/src/lib/sass/utils/_functions.scss 6:36  get()
+  node_modules/ydr-ng-common/src/lib/sass/utils/_mixins.scss 47:14    font-size()
+  src/styles.scss 38:3                                                root stylesheet
+
+Date: 2021-08-13T17:49:08.299Z - Hash: 0423c42c7c383574062c
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28.3 kB [initial] [rendered]
+Time: 135ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:49:33.165Z - Hash: 9e44162069c88bea9fe9
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28.3 kB [initial] [rendered]
+Time: 128ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:50:54.222Z - Hash: bb40de62597a336bd069
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28.3 kB [initial] [rendered]
+Time: 121ms
+: Compiled successfully.
+
+Date: 2021-08-13T17:51:06.223Z - Hash: c6ae58b2feb88660d3de
+12 unchanged chunks
+chunk {styles} styles.js, styles.js.map (styles) 28.3 kB [initial] [rendered]
+Time: 106ms
 : Compiled successfully.

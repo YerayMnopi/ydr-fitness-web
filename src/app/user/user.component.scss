@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+}
+
+.user__navigation {
+  width: 15rem;
+  height: 100vh;
+  position: fixed;
+  background: #14213d;
+}
+
+.user__page {
+  margin-left: 15rem;
+  width: 100%;
+}

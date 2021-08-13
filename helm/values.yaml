@@ -43,6 +43,8 @@ ingress:
   hosts:
     - host: workoutpeer.com
       paths: [/]
+    - host: www.workoutpeer.com
+      paths: [/]
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:

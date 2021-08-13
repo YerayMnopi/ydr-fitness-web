@@ -1,8 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'utils/mixins';
+
 $colors: (
-  primary: #07090D,
-  accent: #34BCBC,
-  background: #F2F2F2,
+  primary: #e5e5e5,
+  accent: #fca311,
+  background: #101a30,
+  foreground: #14213d,
   white: white,
   grey: grey
 );
+
+$font-sizes: (
+  5: 5px,
+  14: 14px,
+  medium: 1.6rem,
+  21: 21px,
+  29: 29px,
+  xxl: 49px,
+  69: 69px,
+  90: 90px
+);
+
+$fonts: (
+  regular: "Helvetica Neue",
+  bold: "Roboto Slab"
+);
+
+
+body {
+  font-family: "Helvetica Neue";
+  @include color(primary);
+  @include background-color(background);
+  @include font-size(medium);
+}
+
+h1 {
+  @include color(primary);
+  @include font-size(xxl);
+  @include font-family(regular);
+}

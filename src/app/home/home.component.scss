@@ -1,3 +1,5 @@
+@import 'utils/mixins';
+
 .home__why {
     padding: 10rem 0;
   }
@@ -16,4 +18,51 @@
   grid-row-gap: 8rem;
 }
   
-  
+$footer-height: 30vh;
+
+.app__header {
+  width: 100%;
+  height: 8rem;
+  padding: .5rem 2rem;
+  z-index: 1;
+  box-shadow: 1px 8px 3px -8px rgba(0,0,0,0.47);
+  -webkit-box-shadow: 1px 8px 3px -8px rgba(0,0,0,0.47);
+  -moz-box-shadow: 1px 8px 3px -8px rgba(0,0,0,0.47);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__logo {
+  max-height: 7rem;
+}
+
+.app__login {
+  cursor: pointer;
+  max-height: 2.5rem;
+}
+
+.app__main {
+  padding-bottom: $footer-height;
+  @include background-color(background);
+  min-height: 60vh;
+}
+
+.app__footer {
+  @include background-color(primary);
+  height: $footer-height;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.app__footer-heading {
+  @include color(accent);
+  font-size: 3rem;
+  @include padding(8);
+}
+
+.app__footer-heading-sub {
+  font-size: 1.5rem;
+}

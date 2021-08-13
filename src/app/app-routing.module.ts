@@ -7,13 +7,14 @@ const routes: Routes = [
   {
     path: 'auth',
     loadChildren: () => import('./login.module').then(m => m.LoginModule),
-    pathMatch: 'full',
-    data: {animation: 'login'}
+    data: {
+      animation: 'login',
+      redirectTo: 'user'
+    }
   },
   {
-    path: 'dashboard',
-    loadChildren: () => import('./trainings/trainings.module').then(m => m.TrainingsModule),
-    pathMatch: 'full',
+    path: 'user',
+    loadChildren: () => import('./user/user.module').then(m => m.UserModule),
     canLoad: [
       AuthGuard
     ],
@@ -22,15 +23,12 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule),
-    pathMatch: 'full',
     data: {animation: 'home'}
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {
-    initialNavigation: 'enabled'
-})],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -9,22 +9,24 @@ import { UserModule } from 'ydr-ng-common/user';
 import { NotificationsModule } from 'ydr-ng-common/notifications';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HighlightModule } from 'ydr-ng-common';
+import { HighlightModule, EnvironmentModule } from 'ydr-ng-common';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
+    AppRoutingModule,
+    EnvironmentModule.forRoot(environment),
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule,
     HttpClientModule,
     StateModule,
     AuthModule,
     UserModule,
     NotificationsModule,
-    HighlightModule
+    HighlightModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

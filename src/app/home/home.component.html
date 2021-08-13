@@ -1,22 +1,31 @@
-<lib-section 
-    backgroundImage="assets/victor-freitas-Pnm-9vBEQhk-unsplash-min.jpg"
-    heading="Your personalized training plan thanks to the most advanced AI"
-    buttonText="START NOW"
-    routerLink="dashboard"
-></lib-section>
-<section class="home__why">
-    <h2 class="home__why-heading">Discover everything your virtual personal trainer can do for you</h2>
-    <div class="home__why-highlight-list">
-        <lib-highlight *ngFor="let hightlight of highlights"
-            [iconName]="hightlight.iconName"
-            [heading]="hightlight.heading"
-            [text]="hightlight.text"
-        ></lib-highlight>
-    </div>
-</section>
-<lib-section 
-    backgroundImage="assets/alora-griffiths-V3GnMeRhnjk-unsplash-min.jpg"
-    heading="Get to know all your training stadistics"
-    buttonText="IMPROVE YOUR TRAINING NOW"
-    routerLink="auth"
-></lib-section>
+<header class="app__header">
+    <img class="app__logo" src="assets/logo-final@2x.png" alt="logo" routerLink="">
+    <lib-highlight class="app__login" iconName="grin" routerLink="dashboard"></lib-highlight>
+</header>
+<main role="main" class="app__main">
+    <lib-section 
+        backgroundImage="assets/victor-freitas-Pnm-9vBEQhk-unsplash-min.jpg"
+        heading="Your personalized training plan thanks to the most advanced AI"
+        buttonText="START NOW"
+        routerLink="user"
+    ></lib-section>
+    <section class="home__why">
+        <h2 class="home__why-heading">Discover everything your virtual personal trainer can do for you</h2>
+        <div class="home__why-highlight-list">
+            <lib-highlight *ngFor="let hightlight of highlights"
+                [iconName]="hightlight.iconName"
+                [heading]="hightlight.heading"
+                [text]="hightlight.text"
+            ></lib-highlight>
+        </div>
+    </section>
+    <lib-section 
+        backgroundImage="assets/alora-griffiths-V3GnMeRhnjk-unsplash-min.jpg"
+        heading="Get to know all your training stadistics"
+        buttonText="IMPROVE YOUR TRAINING NOW"
+        routerLink="user"
+    ></lib-section>
+</main>
+<footer class="app__footer">
+    <h3 class="app__footer-heading">Workout peer<sub class="app__footer-heading-sub">BETA</sub></h3>
+</footer>

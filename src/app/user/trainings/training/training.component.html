@@ -3,7 +3,7 @@
     <li class="trainining__exercise"
         *ngFor="let execution of training.executions"
     >
-        {{execution.exercise.name}}: <span *ngFor="let set of execution.sets" class="training__exercise">{{set.repetitions}} ({{set.weight}}) - </span> <button class="training__new-set" (click)="selectExecution(execution.id)">+</button>
+        {{execution.exercise.name}}: <span *ngFor="let set of execution.sets" class="training__exercise">{{set.repetitions}} ({{set.weight}}) - </span> <button class="training__new-set" *ngIf="expanded" (click)="selectExecution(execution.id)">+</button>
     </li>
 </ul>
 <ng-container *ngIf="expanded">

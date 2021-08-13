@@ -20,15 +20,10 @@
       "ydr-ng-common": [
         "node_modules/ydr-ng-common",
       ],
-      "ydr-ng-common/auth": [
-        "node_modules/ydr-ng-common/auth"
+      "ydr-ng-common/*": [
+        "node_modules/ydr-ng-common/*"
       ],
-      "ydr-ng-common/user": [
-        "node_modules/ydr-ng-common/user"
-      ],
-      "ydr-ng-common/notifications": [
-        "node_modules/ydr-ng-common/notifications"
-      ]
+
     }
   },
   "angularCompilerOptions": {

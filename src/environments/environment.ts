@@ -1,9 +1,13 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
+import { EnvironmentId } from 'ydr-ng-common';
 
 export const environment = {
-  production: false
+  id: EnvironmentId.Local,
+  production: true,
+  apiUrl: 'http://localhost:10000',
+  GTM_ID: ''
 };
 
 /*
