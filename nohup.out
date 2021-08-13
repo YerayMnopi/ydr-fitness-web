@@ -168,3 +168,1595 @@ Date: 2021-08-13T17:51:06.223Z - Hash: c6ae58b2feb88660d3de
 chunk {styles} styles.js, styles.js.map (styles) 28.3 kB [initial] [rendered]
 Time: 106ms
 : Compiled successfully.
+
+Date: 2021-08-13T17:59:58.323Z - Hash: 4a7fb0333f6dd4545aa5
+12 unchanged chunks
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.23 MB [initial] [rendered]
+Time: 1011ms
+
+ERROR in ./node_modules/ansi-html/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/ansi-html/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/ansi-regex/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/ansi-regex/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+Date: 2021-08-13T18:00:00.639Z - Hash: efb3e9b853d011108668
+9 unchanged chunks
+chunk {main} main.js, main.js.map (main) 17 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 14.6 kB [initial] [rendered]
+chunk {trainings-trainings-module} trainings-trainings-module.js, trainings-trainings-module.js.map (trainings-trainings-module) 61.8 kB  [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.84 MB [initial] [rendered]
+Time: 1358ms
+
+ERROR in ./node_modules/rxjs/_esm2015/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/rxjs/_esm2015/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/tslib/tslib.es6.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/tslib/tslib.es6.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in (webpack)-dev-server/client?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/webpack-dev-server/client/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/zone.js/dist/zone-evergreen.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/zone.js/dist/zone-evergreen.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+Date: 2021-08-13T18:00:02.485Z - Hash: 17f5c96331dd0b0bd974
+10 unchanged chunks
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 9.14 kB [initial] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 23.6 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.46 MB [initial] [rendered]
+Time: 1307ms
+
+ERROR in ./node_modules/@angular/localize/fesm2015/init.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/localize/fesm2015/init.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/css-loader/dist/runtime/api.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/css-loader/dist/runtime/api.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/rxjs/_esm2015/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/rxjs/_esm2015/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/rxjs/_esm2015/operators/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/rxjs/_esm2015/operators/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/tslib/tslib.es6.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/tslib/tslib.es6.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in (webpack)-dev-server/client?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/webpack-dev-server/client/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/zone.js/dist/zone-evergreen.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/zone.js/dist/zone-evergreen.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+Date: 2021-08-13T18:00:03.021Z - Hash: 04555b2231b7e13495df
+8 unchanged chunks
+chunk {common} common.js, common.js.map (common) 4.45 kB  [rendered]
+chunk {main} main.js, main.js.map (main) 16.2 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 9.33 kB [entry] [rendered]
+chunk {user-user-module} user-user-module.js, user-user-module.js.map (user-user-module) 10.8 kB  [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 122 kB [initial] [rendered]
+Time: 216ms
+
+ERROR in ./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/localize/fesm2015/init.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/localize/fesm2015/init.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/effects/__ivy_ngcc__/fesm2015/ngrx-effects.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/effects/__ivy_ngcc__/fesm2015/ngrx-effects.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/entity/__ivy_ngcc__/fesm2015/ngrx-entity.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/entity/__ivy_ngcc__/fesm2015/ngrx-entity.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/store-devtools/__ivy_ngcc__/fesm2015/ngrx-store-devtools.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/store-devtools/__ivy_ngcc__/fesm2015/ngrx-store-devtools.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/css-loader/dist/runtime/api.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/css-loader/dist/runtime/api.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/rxjs/_esm2015/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/rxjs/_esm2015/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/rxjs/_esm2015/operators/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/rxjs/_esm2015/operators/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/tslib/tslib.es6.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/tslib/tslib.es6.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in (webpack)-dev-server/client?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/webpack-dev-server/client/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/zone.js/dist/zone-evergreen.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/zone.js/dist/zone-evergreen.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+Date: 2021-08-13T18:00:05.461Z - Hash: 04555b2231b7e13495df
+13 unchanged chunks
+
+Time: 41ms
+
+ERROR in ./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/localize/fesm2015/init.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/localize/fesm2015/init.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/effects/__ivy_ngcc__/fesm2015/ngrx-effects.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/effects/__ivy_ngcc__/fesm2015/ngrx-effects.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/entity/__ivy_ngcc__/fesm2015/ngrx-entity.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/entity/__ivy_ngcc__/fesm2015/ngrx-entity.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/store-devtools/__ivy_ngcc__/fesm2015/ngrx-store-devtools.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/store-devtools/__ivy_ngcc__/fesm2015/ngrx-store-devtools.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/css-loader/dist/runtime/api.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/css-loader/dist/runtime/api.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/rxjs/_esm2015/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/rxjs/_esm2015/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/rxjs/_esm2015/operators/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/rxjs/_esm2015/operators/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/tslib/tslib.es6.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/tslib/tslib.es6.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in (webpack)-dev-server/client?http://0.0.0.0:0/sockjs-node&sockPath=/sockjs-node
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/webpack-dev-server/client/index.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/zone.js/dist/zone-evergreen.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/zone.js/dist/zone-evergreen.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+Compiling @angular/core : es2015 as esm2015
+    
+    ERROR in src/environments/environment.ts:4:31 - error TS2307: Cannot find module 'ydr-ng-common' or its corresponding type declarations.
+    
+    4 import { EnvironmentId } from 'ydr-ng-common';
+                                    ~~~~~~~~~~~~~~~
+    
+
+Date: 2021-08-13T18:02:13.533Z - Hash: 1bb2ef5c13526a69ef0d
+8 unchanged chunks
+chunk {main} main.js, main.js.map (main) 16.9 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 137 kB [initial] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 23 kB [initial] [rendered]
+chunk {trainings-trainings-module} trainings-trainings-module.js, trainings-trainings-module.js.map (trainings-trainings-module) 73.4 kB  [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 914 kB [initial] [rendered]
+Time: 4722ms
+
+ERROR in ./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/effects/__ivy_ngcc__/fesm2015/ngrx-effects.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/effects/__ivy_ngcc__/fesm2015/ngrx-effects.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/entity/__ivy_ngcc__/fesm2015/ngrx-entity.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/entity/__ivy_ngcc__/fesm2015/ngrx-entity.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/store-devtools/__ivy_ngcc__/fesm2015/ngrx-store-devtools.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/store-devtools/__ivy_ngcc__/fesm2015/ngrx-store-devtools.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in (webpack)/buildin/module.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/webpack/buildin/module.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in scope_1.TypeCheckScopeRegistry is not a constructor
+
+Compiling @angular/core : es2015 as esm2015
+    
+    ERROR in src/app/app-routing.module.ts:3:27 - error TS2307: Cannot find module 'ydr-ng-common/auth' or its corresponding type declarations.
+    
+    3 import { AuthGuard } from 'ydr-ng-common/auth';
+                                ~~~~~~~~~~~~~~~~~~~~
+    src/environments/environment.ts:4:31 - error TS2307: Cannot find module 'ydr-ng-common' or its corresponding type declarations.
+    
+    4 import { EnvironmentId } from 'ydr-ng-common';
+                                    ~~~~~~~~~~~~~~~
+    
+
+Date: 2021-08-13T18:02:27.466Z - Hash: 1bb2ef5c13526a69ef0d
+13 unchanged chunks
+
+Time: 1861ms
+
+ERROR in ./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/effects/__ivy_ngcc__/fesm2015/ngrx-effects.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/effects/__ivy_ngcc__/fesm2015/ngrx-effects.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/entity/__ivy_ngcc__/fesm2015/ngrx-entity.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/entity/__ivy_ngcc__/fesm2015/ngrx-entity.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/store-devtools/__ivy_ngcc__/fesm2015/ngrx-store-devtools.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/store-devtools/__ivy_ngcc__/fesm2015/ngrx-store-devtools.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in ./node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in (webpack)/buildin/module.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/n226510/yeray/front/ydr-fitness-web/node_modules/webpack/buildin/module.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at Storage.provideSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at runLoaders (/Users/n226510/yeray/front/ydr-fitness-web/node_modules/loader-runner/lib/LoaderRunner.js:365:2)
+
+ERROR in scope_1.TypeCheckScopeRegistry is not a constructor
