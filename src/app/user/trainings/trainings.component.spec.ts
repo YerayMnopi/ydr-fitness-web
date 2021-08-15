@@ -2,14 +2,14 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MockComponent, MockService, MockProvider } from 'ng-mocks';
 import { TrainingsComponent } from './trainings.component';
 import { TrainingComponent } from './training/training.component';
-import { TrainingsService } from './trainings.service';
+import { TrainingsService } from '../trainings.service';
 import { By } from '@angular/platform-browser';
 import { Spied } from 'ydr-ng-common';
-import { Training } from './training/training';
+import { Training } from '../training';
 import { of } from 'rxjs';
-import { ExercisesService } from './exercises.service';
-import { ExecutionsService } from './executions.service';
-import { SetsService } from './sets.service';
+import { ExercisesService } from '../exercises.service';
+import { ExecutionsService } from '../executions.service';
+import { SetsService } from '../sets.service';
 
 describe('TrainingsComponent', () => {
   let component: TrainingsComponent;

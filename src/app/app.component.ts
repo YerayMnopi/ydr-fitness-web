@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Training } from './user/trainings/training/training';
+import { Training } from './user/training';
 import { slideInAnimation, slideOutAnimation } from 'ydr-ng-common';
 import { RouterOutlet } from '@angular/router';
 import { trigger, transition } from '@angular/animations';

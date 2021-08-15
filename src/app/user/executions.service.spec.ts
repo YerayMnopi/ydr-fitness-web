@@ -1,21 +1,21 @@
 import { TestBed } from '@angular/core/testing';
 
-import { TrainingsService } from './trainings.service';
+import { ExecutionsService } from './executions.service';
 import { ApiService, ApiServiceMockFactory } from 'ydr-ng-common';
-import { Training } from './training/training';
+import { Execution } from './execution';
 
-describe('TrainingsService', () => {
-  let service: TrainingsService;
+describe('ExecutionsService', () => {
+  let service: ExecutionsService;
   let apiService: ApiService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [
-        TrainingsService,
+        ExecutionsService,
         {provide: ApiService, useFactory: ApiServiceMockFactory}
       ]
     });
-    service = TestBed.inject(TrainingsService);
+    service = TestBed.inject(ExecutionsService);
     apiService = TestBed.inject(ApiService);
   });
 
@@ -23,13 +23,15 @@ describe('TrainingsService', () => {
     expect(service).toBeTruthy();
   });
 
-  it('should load trainings', () => {
+  it('should load executions', () => {
     service.load();
     expect(apiService.get).toHaveBeenCalledWith(service['endpoint']);
   });
 
-  it('should create training', () => {
-    service.create();
-    expect(apiService.post).toHaveBeenCalledWith(service['endpoint'], {});
+  it('should create execution', () => {
+    const trainingId = 'test';
+    const exerciseId = 'test';
+    service.create(trainingId, exerciseId);
+    expect(apiService.post).toHaveBeenCalledWith(service['endpoint'], {trainingId, exerciseId});
   });
 });

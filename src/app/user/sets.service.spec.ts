@@ -2,6 +2,7 @@ import { TestBed } from '@angular/core/testing';
 
 import { SetsService } from './sets.service';
 import { ApiService, ApiServiceMockFactory } from 'ydr-ng-common';
+import { SetCreatePayload } from './set';
 
 describe('SetsService', () => {
   let service: SetsService;
@@ -31,7 +32,7 @@ describe('SetsService', () => {
     const trainingId = 'test';
     const exerciseId = 'test';
     const executionId = 'test';
-    service.create(trainingId, exerciseId, executionId);
-    expect(apiService.post).toHaveBeenCalledWith(service['endpoint'], {trainingId, exerciseId, executionId});
+    service.create({} as SetCreatePayload);
+    expect(apiService.post).toHaveBeenCalledWith(service['endpoint'], {});
   });
 });

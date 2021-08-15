@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter, HostListener, Renderer2, ElementRef } from '@angular/core';
-import { Training } from './training';
+import { Training } from '../../training';
 import { AbstractControl, FormBuilder, FormGroup } from '@angular/forms';
-import { Exercise } from './exercise';
+import { Exercise } from '../../exercise';
 import { i18nMetaToJSDoc } from '@angular/compiler/src/render3/view/i18n/meta';
 
 @Component({

@@ -2,9 +2,10 @@ import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { TrainingComponent } from './training.component';
 import { By } from '@angular/platform-browser';
-import { Training } from './training';
+import { Training } from '../../training';
 import { DatePipe } from '@angular/common';
 import { FormBuilder } from '@angular/forms';
+import { Exercise } from '../../exercise';
 
 describe('TrainingComponent', () => {
   let component: TrainingComponent;
@@ -22,22 +23,34 @@ describe('TrainingComponent', () => {
     fixture = TestBed.createComponent(TrainingComponent);
     component = fixture.componentInstance;
     component.training = new Training();
+    const userId = 'user';
+    const executionId = 'execution';
     component.training.executions = [
       {
-        excerciseId: '234n3',
+        id: 'id',
+        createdAt: 'date',
+        userId,
+        trainingId: 'training',
+        exercise: {} as Exercise,
         volume: 0,
         sets: [
           {
             repetitions: 8,
-            weight: 0
+            weight: 0,
+            userId,
+            executionId
           },
           {
             repetitions: 8,
-            weight: 0
+            weight: 0,
+            userId,
+            executionId
           },
           {
             repetitions: 5,
-            weight: 0
+            weight: 0,
+            userId,
+            executionId
           }
         ],
       }
@@ -64,12 +77,6 @@ describe('TrainingComponent', () => {
     const training_date = fixture.debugElement.query(By.css('.training__date')).nativeElement.innerText;
 
     expect(training_date).toBe(new DatePipe('en').transform(component.training.createdAt, 'medium'));
-  });
-
-  it('should have an exercise selector', () => {
-    const options = fixture.debugElement.queryAll(By.css('.training__exercise-select-option'));
-
-    expect(options.length).toBe(component.exercises.length);
   });
 
 });

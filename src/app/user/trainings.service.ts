@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { ApiService } from 'ydr-ng-common';
-import { Training } from './training/training';
+import { Training } from './training';
 import { Observable } from 'rxjs';
-import { Exercise } from './training/exercise';
 
 @Injectable()
 export class TrainingsService {

@@ -1,13 +1,13 @@
 import { Component, OnInit, ChangeDetectorRef, ChangeDetectionStrategy, HostListener } from '@angular/core';
-import { Training } from './training/training';
-import { TrainingsService } from './trainings.service';
-import { Exercise } from './training/exercise';
+import { Training } from '../training';
+import { TrainingsService } from '../trainings.service';
+import { Exercise } from '../exercise';
 import { of, Observable } from 'rxjs';
 import { switchMap, expand } from 'rxjs/operators';
-import { ExercisesService } from './exercises.service';
-import { ExecutionsService } from './executions.service';
-import { SetsService } from './sets.service';
-import { SetCreatePayload } from './training/set';
+import { ExercisesService } from '../exercises.service';
+import { ExecutionsService } from '../executions.service';
+import { SetsService } from '../sets.service';
+import { SetCreatePayload } from '../set';
 
 @Component({
   selector: 'app-trainings',

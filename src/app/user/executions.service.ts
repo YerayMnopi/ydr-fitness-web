@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { ApiService } from 'ydr-ng-common';
+import { Execution } from './execution';
 import { Observable } from 'rxjs';
-import { Exercise } from './training/exercise';
 
 @Injectable()
-export class ExercisesService {
+export class ExecutionsService {
 
-  endpoint = 'exercises';
+  endpoint = 'executions';
 
   constructor(
     private readonly apiService: ApiService
@@ -16,8 +16,8 @@ export class ExercisesService {
     return this.apiService.get(this.endpoint);
   }
 
-  create(name: string): Observable<Exercise> {
-    return this.apiService.post(this.endpoint, {name});
+  create(trainingId: string, exerciseId: string): Observable<Execution> {
+    return this.apiService.post(this.endpoint, {trainingId, exerciseId});
   }
 
 }

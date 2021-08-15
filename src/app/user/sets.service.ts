@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ApiService } from 'ydr-ng-common';
-import { SetCreatePayload } from './training/set';
+import { SetCreatePayload } from './set';
 import { Observable } from 'rxjs';
 
 @Injectable()

@@ -1,21 +1,21 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ExecutionsService } from './executions.service';
+import { ExercisesService } from './exercises.service';
 import { ApiService, ApiServiceMockFactory } from 'ydr-ng-common';
-import { Execution } from './training/execution';
+import { Exercise } from './exercise';
 
-describe('ExecutionsService', () => {
-  let service: ExecutionsService;
+describe('ExercisesService', () => {
+  let service: ExercisesService;
   let apiService: ApiService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [
-        ExecutionsService,
+        ExercisesService,
         {provide: ApiService, useFactory: ApiServiceMockFactory}
       ]
     });
-    service = TestBed.inject(ExecutionsService);
+    service = TestBed.inject(ExercisesService);
     apiService = TestBed.inject(ApiService);
   });
 
@@ -23,15 +23,14 @@ describe('ExecutionsService', () => {
     expect(service).toBeTruthy();
   });
 
-  it('should load executions', () => {
+  it('should load exercises', () => {
     service.load();
     expect(apiService.get).toHaveBeenCalledWith(service['endpoint']);
   });
 
-  it('should create execution', () => {
-    const trainingId = 'test';
-    const exerciseId = 'test';
-    service.create(trainingId, exerciseId);
-    expect(apiService.post).toHaveBeenCalledWith(service['endpoint'], {trainingId, exerciseId});
+  it('should create exercise', () => {
+    const exerciseName = 'test';
+    service.create(exerciseName);
+    expect(apiService.post).toHaveBeenCalledWith(service['endpoint'], {name: exerciseName});
   });
 });

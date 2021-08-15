@@ -5,10 +5,6 @@ import { TrainingsRoutingModule } from './trainings-routing.module';
 import { TrainingComponent } from './training/training.component';
 import { TrainingsComponent } from './trainings.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { TrainingsService } from './trainings.service';
-import { ExercisesService } from './exercises.service';
-import { ExecutionsService } from './executions.service';
-import { SetsService } from './sets.service';
 
 
 @NgModule({
@@ -20,12 +16,6 @@ import { SetsService } from './sets.service';
     CommonModule,
     TrainingsRoutingModule,
     ReactiveFormsModule,
-  ],
-  providers: [
-    TrainingsService,
-    ExercisesService,
-    ExecutionsService,
-    SetsService
   ]
 })
 export class TrainingsModule { }
