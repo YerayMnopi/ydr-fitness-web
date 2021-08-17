@@ -5,12 +5,18 @@ import {
   ActivatedRouteSnapshot
 } from '@angular/router';
 import { Observable, of } from 'rxjs';
+import { first } from 'rxjs/operators';
+import { Training } from '../training';
+import { TrainingsService } from '../trainings.service';
 
-@Injectable({
-  providedIn: 'root'
-})
-export class TrainingDetailResolver implements Resolve<boolean> {
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean> {
-    return of(true);
+@Injectable()
+export class TrainingDetailResolver implements Resolve<Training> {
+  constructor(
+    private readonly trainingsService: TrainingsService
+  ) {}
+  
+  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<Training> {
+    const trainingId = route.params.id;
+    return this.trainingsService.get(trainingId).pipe(first());
   }
 }

@@ -16,6 +16,10 @@ export class TrainingsService {
     return this.apiService.get(this.endpoint);
   }
 
+  get(trainingId: string): Observable<Training> {
+    return this.apiService.get(`${this.endpoint}/${trainingId}`);
+  }
+
   create(): Observable<Training> {
     return this.apiService.post(this.endpoint, {});
   }

@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TrainingDetailComponent } from './training-detail.component';
+import { TrainingDetailResolver } from './training-detail.resolver';
 
 const routes: Routes = [
   {
     path: '',
-    component: TrainingDetailComponent
+    component: TrainingDetailComponent,
+    resolve: {
+      training: TrainingDetailResolver
+    }
   }
 ];
 

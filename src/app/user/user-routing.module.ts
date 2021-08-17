@@ -22,6 +22,10 @@ const routes: Routes = [
         loadChildren: () => import('./training-detail/training-detail.module').then(m => m.TrainingDetailModule)
       },
       {
+        path: 'trainings/:id/executions/:id',
+        loadChildren: () => import('./execution/execution.module').then(m => m.ExecutionModule)
+      },
+      {
         path: 'profile',
         loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule),
         data: {animation: 'trainings'}

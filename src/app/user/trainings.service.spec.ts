@@ -28,6 +28,14 @@ describe('TrainingsService', () => {
     expect(apiService.get).toHaveBeenCalledWith(service['endpoint']);
   });
 
+
+  it('should get a training by id', () => {
+    const id = 'id'
+    service.get(id);
+    expect(apiService.get).toHaveBeenCalledWith(`${service['endpoint']}/${id}`);
+  });
+
+
   it('should create training', () => {
     service.create();
     expect(apiService.post).toHaveBeenCalledWith(service['endpoint'], {});
