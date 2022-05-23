@@ -38,3 +38,87 @@ h1 {
   @include font-size(xxl);
   @include font-family(regular);
 }
+
+.wp-button {
+  font-family: "Helvetica Neue";
+  font-weight: 900;
+  font-size: 14px;
+  text-align: left;
+  @include color(accent);
+  max-width: 10.7rem;
+  max-height: 3.7rem;
+  border-radius: 4px;
+  background: #14213d;
+  border: 1px solid #fca311;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 30%;
+  height: 2.5rem;
+  text-align: center;
+}
+
+.wp-input {
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: "Helvetica Neue";
+  font-weight: normal;
+  font-size: 1.2rem;
+  text-align: left;
+  color: #e5e5e5;
+  padding: .5rem;
+  width: 30%;
+  height: 2.5rem;
+}
+
+.wp_route {
+  background: #101a30;
+  display: block;
+  min-height: 60vh;
+  @include padding(8);
+
+  & app-page-heading {
+    @include margin(0, 0, 8, 0);
+  }
+
+  & app-card {
+    @include margin(0, 0, 8, 0);
+  }
+}
+
+.wp-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+
+  & .wp-body-left {
+    width: 100%;
+    order: 1;
+
+    @include min-width(phone) {
+      width: 38%;
+      @include padding(0, 4, 0, 0);
+      order: 0;
+    }
+  }
+
+  & .wp-body-rigth {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 0;
+
+    @include min-width(phone) {
+      width: 62%;
+      @include padding(0, 0, 0, 4);
+      order: 1;
+    }
+  }
+
+  @include min-width(phone) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

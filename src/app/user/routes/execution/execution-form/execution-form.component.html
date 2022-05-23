@@ -1,0 +1,37 @@
+<form [formGroup]="form" class="execution-form__form">
+    <label for="repetitions" class="execution-form__label">repetitions</label>
+  <input formControlName="repetitions"
+      id='repetitions'
+      class="training__set-repetitions wp-input" 
+      i18n-placeholder="@@training__exercise-repetitions"
+      placeholder="reps"
+  />
+  <label for="restSeconds" class="execution-form__label">restSeconds</label>
+  <input formControlName="restSeconds" 
+        id="restSeconds"
+      class="training__set-restSeconds wp-input" 
+      i18n-placeholder="@@training__set-restSeconds"
+      placeholder="restSeconds"
+  />
+  <label for="weight" class="execution-form__label">weight</label>
+  <input formControlName="weight" 
+        id='weight'
+      class="training__set-weight wp-input" 
+      i18n-placeholder="@@training__set-weight"
+      placeholder="weight"
+  />
+  <label for="timeUnderTension" class="execution-form__label">timeUnderTension</label>
+  <input formControlName="timeUnderTension" 
+        id='timeUnderTension'
+      class="training__set-timeUnderTension wp-input" 
+      i18n-placeholder="@@training__set-timeUnderTension"
+      placeholder="timeUnderTension"
+  />
+</form>
+
+<section class="execution-form__meta" >
+    <button type="submit" class="training__execution-form-close wp-button" i18n="@@training__execution-form-submit" (click)="logSet()">Go!</button>
+    <div class="execution-form__remainingTime" *ngIf="remainingTime">
+        RestTime: {{remainingTime}}
+    </div>
+</section>

@@ -1,8 +1,1 @@
-<nav class="user__navigation">
-  <ul class="user__navigation-list">
-    <li *ngFor="let item of navigation_items" class="user__navigation-list-item" [routerLink]="item.url">{{item.text}}</li>
-  </ul>
-</nav>
-<main class="user__page">
-  <router-outlet></router-outlet>
-</main>
+<app-nav [routes]="navigation_items"></app-nav>

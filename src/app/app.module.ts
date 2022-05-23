@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HighlightModule, EnvironmentModule } from 'ydr-ng-common';
 import { environment } from 'src/environments/environment';
+import { CoreModule } from 'src/libs/core/core.module';
 
 @NgModule({
   declarations: [

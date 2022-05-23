@@ -1,0 +1,8 @@
+<ul class="training__exercise-list">
+    <li class="trainining__exercise"
+        *ngFor="let execution of training.executions"
+    >
+        {{execution.exercise.name}}
+    </li>
+</ul>
+<button class="training__delete" i18n="@@training__delete" (click)="deleteTraining()">Delete training</button>

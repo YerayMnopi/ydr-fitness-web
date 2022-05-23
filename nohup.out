@@ -1,0 +1,41 @@
+
+> ydr-fitness-web@0.0.0 start /Users/n226510/yeray/front/ydr-fitness-web
+> ng serve  --host 0.0.0.0
+
+Warning: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disable-host-check" if that's the
+case.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                              | Names         |      Size
+vendor.js                                                        | vendor        |   3.35 MB
+polyfills.js                                                     | polyfills     | 137.05 kB
+main.js                                                          | main          |  14.27 kB
+runtime.js                                                       | runtime       |  12.92 kB
+styles.css                                                       | styles        |   7.11 kB
+
+| Initial Total |   3.52 MB
+
+Lazy Chunk Files                                                 | Names         |      Size
+src_app_user_user_module_ts.js                                   | -             |   1.38 MB
+src_app_user_routes_execution_execution_module_ts.js             | -             |  28.06 kB
+src_app_user_routes_training-detail_training-detail_module_ts.js | -             |  21.41 kB
+src_app_home_home_module_ts.js                                   | -             |  17.24 kB
+src_app_user_routes_exercises_exercises_module_ts.js             | -             |  15.43 kB
+src_app_user_routes_trainings_trainings_module_ts.js             | -             |  15.22 kB
+src_app_login_module_ts.js                                       | -             |  14.29 kB
+src_app_user_routes_dashboard_dashboard_module_ts.js             | -             |  11.91 kB
+src_app_user_routes_notifications_notifications_module_ts.js     | -             |   9.29 kB
+src_app_user_routes_profile_profile_module_ts.js                 | -             |   9.19 kB
+
+Build at: 2022-02-06T12:34:43.067Z - Hash: 53e3ee214bbe4c77b3d9 - Time: 108280ms
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.

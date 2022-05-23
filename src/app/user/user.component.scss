@@ -1,15 +1,57 @@
+@import 'utils/mixins';
+
 :host {
   display: flex;
 }
 
 .user__navigation {
-  width: 15rem;
-  height: 100vh;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
   position: fixed;
   background: #14213d;
+
+  @include min-width(phone){
+    z-index: 100;
+    width: 15rem;
+    height: 100vh;
+    flex-direction: column;
+    border-top: 0;
+  }
+}
+
+.user__navigation-list {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: 1.2rem;
+  align-items: center;
+  height: 100%;
+  border-top: 1px solid white;
+
+  & .active-route {
+    color: #fca311;
+    transition: ease-in 300ms color;
+  }
+
+  @include min-width(phone){
+    width: 100%;
+    height: 50vh;
+    flex-direction: column;
+    border-top: 0;
+  }
+}
+
+.user__navigation-list-item {
+  cursor: pointer;
 }
 
 .user__page {
-  margin-left: 15rem;
-  width: 100%;
+  @include min-width(phone){
+    margin-left: 15rem;
+    width: 100%;
+  }
+
 }

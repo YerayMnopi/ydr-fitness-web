@@ -1,0 +1,12 @@
+<ng-container *ngIf="notifications$ | async as notifications">
+  <app-page-heading class="trainings__heading"
+    text="Notifications"
+  ></app-page-heading>
+  <app-card
+      class="dashboard__exercises"
+      [title]="notification.name"
+      *ngFor="let notification of notifications"
+  >
+    <p>{{notification.text}}</p>
+  </app-card>
+</ng-container>

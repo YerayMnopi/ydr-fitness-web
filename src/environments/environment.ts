@@ -7,6 +7,7 @@ export const environment = {
   id: EnvironmentId.Local,
   production: true,
   apiUrl: 'http://localhost:10000',
+  //apiUrl: 'http://192.168.1.137:10000',
   GTM_ID: ''
 };
 

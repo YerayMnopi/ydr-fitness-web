@@ -1,0 +1,31 @@
+<ng-container *ngIf="user$ | async as user">
+  <app-page-heading class="trainings__heading"
+    text="Welcome, {{ user.name }}"
+  ></app-page-heading>
+  <app-card
+      class="dashboard__exercises"
+      title="Max Lifted weight by exercise"
+  >
+  <!--
+    <ul>
+      <li *ngFor="let avg of avgWeightByExercise">{{avg.exercise}}: {{avg.max_weight}} Kg</li>
+    </ul>
+  -->
+    <app-bar-chart
+      *ngIf="avgWeightByExercise"
+      [data]="avgWeightByExercise"
+      x_key="exercise"
+      y_key="max_weight"
+    ></app-bar-chart>
+  </app-card>
+
+    <!--<app-card>
+    <app-bar-chart 
+      [data]="$trainings | async"
+      x_key="createdAt"
+      y_key="id"
+    
+    ></app-bar-chart>
+  </app-card>-->
+    
+</ng-container>

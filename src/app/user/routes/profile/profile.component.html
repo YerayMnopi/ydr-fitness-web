@@ -1,0 +1,17 @@
+<ng-container *ngIf="user$ | async as user">
+  <app-page-heading class="trainings__heading"
+    text="Profile"
+  ></app-page-heading>
+  <app-card
+      class="dashboard__exercises"
+      [title]="user.name"
+  >
+    <ul>
+      <li>First name: {{user.firstName}}</li>
+      <li>Last name: {{user.lastName}}</li>
+      <li>Email: {{user.email}}</li>
+    </ul>
+  </app-card>
+</ng-container>
+
+

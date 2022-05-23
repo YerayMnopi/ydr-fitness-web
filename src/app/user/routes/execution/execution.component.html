@@ -1,0 +1,24 @@
+<ng-container *ngIf="execution$ | async as execution">
+    <app-page-heading class="trainings__heading"
+        text="{{execution.exercise.name}}"
+    ></app-page-heading>
+
+    <section class="wp-body">
+        <div class="wp-body-left">
+            <app-card
+                class="trainings__training"
+                *ngFor="let set of execution.sets; let index=index"
+                title="Set {{index + 1}}"
+            >
+                <span  class="training__exercise">{{set.repetitions}} ({{set.weight}})</span>
+            </app-card>
+        </div>
+
+
+        <app-execution-form class="training__form wp-body-rigth" 
+            (formReady)="setForm=$event"
+            (formSubmitted)="createSet()"
+        ></app-execution-form>
+    </section>
+
+</ng-container>

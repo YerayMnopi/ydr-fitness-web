@@ -1,0 +1,26 @@
+<ng-container *ngIf="exercises$ | async as exercises">
+    <app-page-heading class="trainings__heading"
+        text="Exercises"
+    ></app-page-heading>
+    <section class="wp-body">
+        <div class="wp-body-left">
+            <app-card
+                class="trainings__training"
+                *ngFor="let exercise of exercises"
+                title="{{exercise.name}}"
+                (click)="createExecution(exercise.id)"
+            >
+            </app-card>
+        </div>
+
+        <form [formGroup]="form" class="training__form wp-body-rigth">
+            <input formControlName="exercise" 
+                id="training__exercise-create" 
+                class="training__exercise-create wp-input" 
+                i18n-placeholder="@@training__exercise-create"
+                placeholder="Pick or create an exercise"
+            />
+            <button type="submit" class="wp-button training__execution-form-close" i18n="@@training__execution-form-submit" >Go!</button>
+        </form>
+    </section>
+</ng-container>

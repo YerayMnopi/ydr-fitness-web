@@ -1,0 +1,19 @@
+<ng-container *ngIf="training$ | async as training">
+    <app-page-heading class="trainings__heading"
+        [text]="training?.createdAt | date:'medium'"
+        buttonText="New exercise"
+        routerLink="../../../exercises"
+    ></app-page-heading>
+    <section class="wp-body">
+        <div class="wp-body-left">
+            <app-card
+                class="trainings__training"
+                *ngFor="let execution of training?.executions"
+                title="{{execution.exercise.name}}"
+                (click)="goToExecution(execution.id)"
+            >
+                <span >{{execution?.sets?.length}} sets</span> 
+            </app-card>
+        </div>
+    </section>
+</ng-container>

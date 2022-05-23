@@ -1,8 +1,0 @@
-<h2 class="training__date">{{training?.createdAt | date:'medium' }}</h2>
-<ul class="training__exercise-list">
-    <li class="trainining__exercise"
-        *ngFor="let execution of training?.executions"
-    >
-        {{execution.exercise.name}}: <span *ngFor="let set of execution.sets" class="training__exercise">{{set.repetitions}} ({{set.weight}}) - </span> <button class="training__new-set" [routerLink]="'executions/' + execution.id">+</button>
-    </li>
-</ul>

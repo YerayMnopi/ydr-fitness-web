@@ -1,0 +1,21 @@
+<app-page-heading class="trainings__heading"
+    text="Trainings"
+    buttonText="New training"
+    (buttonClicked)="createTraining()"
+></app-page-heading>
+<section class="wp-body">
+    <div class="wp-body-left">
+        <app-card
+            class="trainings__training"
+            *ngFor="let training of $trainings | async" 
+            title="{{training.createdAt | date:'medium' }}"
+            [link]="training.id"
+        >
+            <app-training 
+                [training]="training"
+                (delete)="deleteTraining($event)"
+            ></app-training>
+        </app-card>
+    </div>
+</section>
+
